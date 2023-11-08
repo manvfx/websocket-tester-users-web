@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "serve": "nuxt dev --port 8080",
+    "lint": "exit 0;",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt": "3.4.2",
+    "sass": "1.62.0",
+    "vite-plugin-vuetify": "1.0.2"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "37.1.0",
+    "@ckeditor/ckeditor5-vue": "5.1.0",
+    "@mdi/font": "7.2.96",
+    "@stomp/stompjs": "7.0.0",
+    "@vueuse/core": "10.0.2",
+    "dayjs": "1.11.7",
+    "jalaliday": "2.3.0",
+    "lodash": "4.17.21",
+    "pluralize": "8.0.0",
+    "socket.io-client": "^4.7.2",
+    "unified-form": "0.7.2",
+    "unified-form-vuetify": "0.6.2",
+    "unified-network": "0.6.4",
+    "vue3-persian-datetime-picker": "1.2.2",
+    "vuetify": "3.1.15"
+  }
+}
